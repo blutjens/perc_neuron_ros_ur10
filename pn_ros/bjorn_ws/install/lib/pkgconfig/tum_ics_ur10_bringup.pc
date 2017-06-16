@@ -1,0 +1,8 @@
+prefix=/home/bjornl/ros/workspaces/bjorn_ws/install
+
+Name: tum_ics_ur10_bringup
+Description: Description of tum_ics_ur10_bringup
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/bjornl/ros/workspaces/bjorn_ws/install/lib 
+Requires: 

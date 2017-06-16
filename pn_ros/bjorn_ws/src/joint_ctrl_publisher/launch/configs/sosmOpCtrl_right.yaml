@@ -1,0 +1,32 @@
+# Gains for the Proportional-Derivative Joint Space Controller
+# P and D gains for each axis.
+sosm_opctrl: 
+ #proportional [7, 7, 7, 5, 5, 5]
+ gains_p: [672, 672, 672, 672, 140, 132]
+ 
+ #derivative [5, 5, 5, 3, 3, 3]
+ gains_d: [79, 79, 72, 64, 11, 50]
+
+ #integral [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+ gains_i: [672, 672, 672, 672, 140, 132]
+
+ #damping stop 
+ gains_d_stop: [10, 10, 10, 10, 10, 10]
+
+ #External torque activation threshold (for the norm(tau))
+ ext_ntau_thresh: 0.5
+
+ #Threshold for the determinant
+ min_detJ: 0.01
+
+ #min q3 to avoid singularitites
+ q3_limit: 10.0
+
+ #Error thresholds to stop the ctrl
+ delta_x: 0.001
+ delta_a: 0.01
+ delta_q: 0.005 
+
+ #Bias
+ lambda: 10.0
+ kappa: 10.0

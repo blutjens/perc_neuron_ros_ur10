@@ -1,0 +1,8 @@
+prefix=/home/bjornl/ros/workspaces/bjorn_ws/install
+
+Name: rosserial_mbed
+Description: Description of rosserial_mbed
+Version: 0.7.6
+Cflags: -I/home/bjornl/ros/workspaces/bjorn_ws/install/include
+Libs: -L/home/bjornl/ros/workspaces/bjorn_ws/install/lib 
+Requires: message_runtime

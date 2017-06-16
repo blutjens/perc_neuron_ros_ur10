@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "tum_ics_ur10_description")
+set(tum_ics_ur10_description_MAINTAINER "Emmanuel Dean <dean@tum.de>")
+set(tum_ics_ur10_description_DEPRECATED "")
+set(tum_ics_ur10_description_VERSION "0.1.0")
+set(tum_ics_ur10_description_BUILD_DEPENDS "urdf" "xacro")
+set(tum_ics_ur10_description_RUN_DEPENDS "urdf" "xacro")
+set(tum_ics_ur10_description_BUILDTOOL_DEPENDS "catkin")

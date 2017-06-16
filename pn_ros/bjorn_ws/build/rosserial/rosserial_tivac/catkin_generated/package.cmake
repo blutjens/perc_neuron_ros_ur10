@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rosserial_tivac")
+set(rosserial_tivac_MAINTAINER "Vitor Matos <vmatos@robosavvy.com>")
+set(rosserial_tivac_DEPRECATED "")
+set(rosserial_tivac_VERSION "0.7.6")
+set(rosserial_tivac_BUILD_DEPENDS )
+set(rosserial_tivac_RUN_DEPENDS "rosserial_msgs" "rosserial_client")
+set(rosserial_tivac_BUILDTOOL_DEPENDS "catkin")

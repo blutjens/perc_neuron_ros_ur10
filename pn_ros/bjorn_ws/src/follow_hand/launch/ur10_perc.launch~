@@ -1,0 +1,21 @@
+<launch>
+<!-- compile with $catkin_make install -->
+
+  <!-- Rviz-->
+  <!--<node name="rviz_vis" pkg="rviz" type="rviz" output="screen"/>-->
+
+  <!-- Start Rosserial Server to receive data from Windows Perception Neuron node-->
+  <!--<node name="rosserial_server" pkg="rosserial_server" type="socket_node" output="screen"/>-->
+
+  <!-- Start Broadcaster that polls data from Rosserial Server and broadcasts it to tf-->
+  <!-- <node name="perc_neuron_tf_broadcaster" pkg="perc_neuron_tf_broadcaster" type="perc_neuron_tf_broadcaster_node" output="screen" /> -->
+
+  <!-- Start follow_hand which receives tf data, calculates path and trajectory for ur5 and publishes new joint values-->
+  <node name="follow_hand" pkg="follow_hand" type="follow_hand_node" output="screen">
+	<param name="/qInnerElbowMin" value="20"/>
+	<param name="/qInnerElbowMax" value="120"/>
+	<param name="/maxVel" value="17"/>
+        <param name="/publishToController" value="true"/>
+  </node>
+
+</launch>

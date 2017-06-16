@@ -1,0 +1,1 @@
+follow_hand:joint_ctrl_publisher:perc_neuron_tf_broadcaster:rosserial_server:ur10_robot/tum_ics_ur10_bringup:ur10_robot/tum_ics_ur10_description:ur_kinematics

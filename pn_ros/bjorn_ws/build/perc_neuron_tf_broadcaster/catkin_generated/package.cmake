@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "perc_neuron_tf_broadcaster")
+set(perc_neuron_tf_broadcaster_MAINTAINER "perceptionneuron <perceptionneuron@todo.todo>")
+set(perc_neuron_tf_broadcaster_DEPRECATED "")
+set(perc_neuron_tf_broadcaster_VERSION "1.1.0")
+set(perc_neuron_tf_broadcaster_BUILD_DEPENDS "roscpp" "std_msgs" "tf")
+set(perc_neuron_tf_broadcaster_RUN_DEPENDS "roscpp" "std_msgs" "tf")
+set(perc_neuron_tf_broadcaster_BUILDTOOL_DEPENDS "catkin")

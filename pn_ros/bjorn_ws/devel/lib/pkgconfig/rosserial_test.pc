@@ -1,0 +1,8 @@
+prefix=/home/bjornl/ros/workspaces/bjorn_ws/devel
+
+Name: rosserial_test
+Description: Description of rosserial_test
+Version: 0.7.6
+Cflags: 
+Libs: -L/home/bjornl/ros/workspaces/bjorn_ws/devel/lib 
+Requires: 

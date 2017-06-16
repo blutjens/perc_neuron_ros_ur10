@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/bjornl/ros/workspaces/bjorn_ws/devel/setup.sh

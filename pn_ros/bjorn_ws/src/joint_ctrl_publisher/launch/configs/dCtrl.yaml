@@ -1,0 +1,5 @@
+# Gains for the Damping Joint Space Controller
+# D gains for each axis.
+d_ctrl: 
+ #derivative 
+ gains_d: [79, 79, 72, 64, 11, 50]

@@ -1,0 +1,14 @@
+# Gains for the Impedance Joint Space Controller
+# P and D gains for each axis.
+joint_imp_ctrl: 
+ #proportional 
+ gains_p: [3, 3, 3, 3, 3, 3]
+ 
+ #derivative 
+ gains_d: [1, 1, 1, 1, 1, 1]
+
+ #interaction gain (per joint) 
+ gains_int: [1, 1, 1, 1, 1, 1]
+
+ # Desired position in deg
+ goal: [90, -45, 30, -70, 40, 40, 6.0]

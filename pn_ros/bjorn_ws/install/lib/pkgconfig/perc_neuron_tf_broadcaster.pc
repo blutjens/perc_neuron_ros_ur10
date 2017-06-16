@@ -1,0 +1,8 @@
+prefix=/home/bjornl/ros/workspaces/bjorn_ws/install
+
+Name: perc_neuron_tf_broadcaster
+Description: Description of perc_neuron_tf_broadcaster
+Version: 1.1.0
+Cflags: 
+Libs: -L/home/bjornl/ros/workspaces/bjorn_ws/install/lib 
+Requires: 

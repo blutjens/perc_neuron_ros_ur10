@@ -1,0 +1,8 @@
+prefix=/home/bjornl/ros/workspaces/bjorn_ws/devel
+
+Name: rosserial_msgs
+Description: Description of rosserial_msgs
+Version: 0.7.6
+Cflags: -I/home/bjornl/ros/workspaces/bjorn_ws/devel/include
+Libs: -L/home/bjornl/ros/workspaces/bjorn_ws/devel/lib 
+Requires: message_runtime

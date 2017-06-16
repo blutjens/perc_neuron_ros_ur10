@@ -1,0 +1,14 @@
+# Gains for the Internal Velocity Joint Controller
+# P and D gains for each axis.
+pid_int: 
+ #proportional [0.45, 0.45, 0.45, 0.45, 0.45, 0.45] 
+ gains_p: [3, 3, 3, 3, 3, 3]
+ 
+ #derivative [0.13, 0.13, 0.13, 0.13, 0.13, 0.13] 
+ gains_d: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+ #integral 
+ gains_i: [1.0, 2.25, 2.25, 1, 1, 1]
+
+ #lower threshold joint velocity
+ lo_thresh: [0.002, 0.002, 0.002, 0.002, 0.002, 0.002]

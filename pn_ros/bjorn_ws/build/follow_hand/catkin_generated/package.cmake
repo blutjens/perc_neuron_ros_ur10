@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "follow_hand")
+set(follow_hand_MAINTAINER "perceptionneuron <perceptionneuron@todo.todo>")
+set(follow_hand_DEPRECATED "")
+set(follow_hand_VERSION "0.0.0")
+set(follow_hand_BUILD_DEPENDS "message_generation" "roscpp" "rospy" "sensor_msgs" "std_msgs" "tf" "ur_kinematics")
+set(follow_hand_RUN_DEPENDS "roscpp" "rospy" "sensor_msgs" "std_msgs" "tf" "message_runtime" "ur_kinematics")
+set(follow_hand_BUILDTOOL_DEPENDS "catkin")

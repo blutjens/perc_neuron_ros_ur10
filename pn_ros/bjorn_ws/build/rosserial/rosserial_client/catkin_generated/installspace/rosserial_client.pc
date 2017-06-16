@@ -1,0 +1,8 @@
+prefix=/home/bjornl/ros/workspaces/bjorn_ws/install
+
+Name: rosserial_client
+Description: Description of rosserial_client
+Version: 0.7.6
+Cflags: 
+Libs: -L/home/bjornl/ros/workspaces/bjorn_ws/install/lib 
+Requires: 

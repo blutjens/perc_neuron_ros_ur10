@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>tum_ics_ur10_bringup</name>
+  <version>0.1.0</version>
+  <description>Launch files and scripts needed to bring up the ROS nodes of UR-10 robot.</description>
+  <maintainer email="dean@tum.de">Emmanuel Dean</maintainer>
+  <license>Modified BSD</license>
+  <author email="dean@tum.de">Emmanuel Dean</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!--run_depend>tom_controller_configuration</run_depend-->
+  <run_depend>tum_ics_ur10_description</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>joy</run_depend>
+  <!--run_depend>twist_mux</run_depend-->
+  <!--run_depend>joy_teleop</run_depend>
+  <run_depend>play_motion</run_depend-->
+
+</package>

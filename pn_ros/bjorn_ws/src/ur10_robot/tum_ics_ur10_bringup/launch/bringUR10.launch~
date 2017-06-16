@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find tum_ics_ur10_description)/robots/upload_ur10.launch" />
+
+  <!-- loading the Park position as TOM zero position -->
+  <rosparam command="load" file="$(find tum_ics_ur10_description)/robots/ur10_zeros.yaml"/>
+
+  <node pkg="tf" type="static_transform_publisher" name="camera_base_link" args="0 0 0  3.14159 0 0  /base_link /D0 1"/> 
+  <node name="joint_state_publisher_ur10" pkg="joint_state_publisher" type="joint_state_publisher" >
+    <param name="use_gui" value="true"/>
+		<!--remap from="/joint_states" to="/joint_cmd"/-->
+    <rosparam param="source_list">[ur10_arm_joint_states]</rosparam>
+  </node>
+  <node name="robot_state_publisher_ur10" pkg="robot_state_publisher" type="state_publisher" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find tum_ics_ur10_bringup)/launch/rviz_conf/robot_ur10.rviz" />
+</launch>

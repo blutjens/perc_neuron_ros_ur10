@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rosserial_xbee")
+set(rosserial_xbee_MAINTAINER "Paul Bouchier <paul.bouchier@gmail.com>")
+set(rosserial_xbee_DEPRECATED "")
+set(rosserial_xbee_VERSION "0.7.6")
+set(rosserial_xbee_BUILD_DEPENDS )
+set(rosserial_xbee_RUN_DEPENDS "rospy" "rosserial_msgs" "diagnostic_msgs" "python-serial" "rosserial_python")
+set(rosserial_xbee_BUILDTOOL_DEPENDS "catkin")

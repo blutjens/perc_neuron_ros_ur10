@@ -1,0 +1,24 @@
+# Gains for the Proportional-Derivative Joint Space Controller
+# P and D gains for each axis.
+sosm_ctrl: 
+ #proportional [672, 672, 672, 672, 140, 132]
+ gains_p: [7, 7, 7, 1, 1, 1]
+ 
+ #derivative [80.0, 40.0, 40.0, 45.0, 40.0, 40.0][3.0, 3.0, 3.0, 3.0, 3.0, 3.0]
+ gains_d: [5, 5, 5, 2, 2, 2]
+
+ #integral, it uses i=p*p/4.0 [672, 672, 672, 672, 140, 132]
+ gains_i: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+ #damping stop 
+ gains_d_stop: [10, 10, 10, 10, 10, 10]
+
+ #External torque activation threshold (for the norm(tau))
+ ext_ntau_thresh: 0.5
+
+ #Bias
+ lambda: 10.0
+ kappa: 10.0
+
+ #Stops the evolution of the SPline avg error in deg 
+ max_deltaq: 5.0

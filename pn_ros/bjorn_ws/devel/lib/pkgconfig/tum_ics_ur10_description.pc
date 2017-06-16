@@ -1,0 +1,8 @@
+prefix=/home/bjornl/ros/workspaces/bjorn_ws/devel
+
+Name: tum_ics_ur10_description
+Description: Description of tum_ics_ur10_description
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/bjornl/ros/workspaces/bjorn_ws/devel/lib 
+Requires: 

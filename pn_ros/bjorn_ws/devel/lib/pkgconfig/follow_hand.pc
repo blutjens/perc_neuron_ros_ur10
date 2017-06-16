@@ -1,0 +1,8 @@
+prefix=/home/bjornl/ros/workspaces/bjorn_ws/devel
+
+Name: follow_hand
+Description: Description of follow_hand
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/bjornl/ros/workspaces/bjorn_ws/devel/lib 
+Requires: message_runtime

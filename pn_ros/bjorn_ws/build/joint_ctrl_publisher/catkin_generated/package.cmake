@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "joint_ctrl_publisher")
+set(joint_ctrl_publisher_MAINTAINER "dean <dean@todo.todo>")
+set(joint_ctrl_publisher_DEPRECATED "")
+set(joint_ctrl_publisher_VERSION "0.0.0")
+set(joint_ctrl_publisher_BUILD_DEPENDS "roscpp" "libqt4-dev" "rospy" "sensor_msgs" "std_msgs" "tf" "tf_conversions" "visualization_msgs" "moveit_ros_planning")
+set(joint_ctrl_publisher_RUN_DEPENDS "roscpp" "libqt4-dev" "rospy" "sensor_msgs" "std_msgs" "tf" "tf_conversions" "visualization_msgs" "moveit_ros_planning")
+set(joint_ctrl_publisher_BUILDTOOL_DEPENDS "catkin")

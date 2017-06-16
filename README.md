@@ -3,7 +3,11 @@ Bachelor's thesis in Engineering Science
 
 Bjorn Lutjens (bjoern.luetjens@tum.de), Dr. Emmanuel Carlos Dean-Leon
 <<<<<<< HEAD
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> a163441af135f06fccaaacb83ac5f2dc08a7370d
 =======
 
 >>>>>>> a163441af135f06fccaaacb83ac5f2dc08a7370d

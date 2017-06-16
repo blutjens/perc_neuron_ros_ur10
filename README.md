@@ -13,7 +13,7 @@ inverse kinematics into UR10 joint states. Joints are checked on safety
 regulations and published to UR10.
 
 For explanation, setup instruction and detailed exeuction instructions 
-read thesis: luetjens_ics_thesis_perc_neuron.pdf
+read thesis: perc_neuron_lutjens_ics_thesis.pdf
 
 View follow_hand_demo_290716.ogv for a demonstration of the starting process.
 

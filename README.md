@@ -6,7 +6,7 @@ Bjorn Lutjens (bjoern.luetjens@tum.de), Dr. Emmanuel Carlos Dean-Leon
 Institute for Cognitive System, Technical University of Munich
 
 ## Video on: 
-http://lutjens.scripts.mit.edu/me/ --> Teleoperation of industrial robots with a motion capture suit
+http://lutjens.scripts.mit.edu/me/ --> Teleoperation of industrial robots with a motion capture suit --> play button
 
 ## Transmits motion data from Perception Neuron (PN) suit onto UR10
 

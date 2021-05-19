@@ -1,7 +1,7 @@
 # Real-time teleoperation of industrial robots with the motion capture system Perception Neuron
 Bachelor's thesis in Engineering Science
 
-Bjorn Lutjens (bjoern.luetjens@tum.de), Dr. Emmanuel Carlos Dean-Leon
+Bjorn Lutjens (lutjens@mit.edu), Dr. Emmanuel Carlos Dean-Leon
 
 Institute for Cognitive System, Technical University of Munich
 

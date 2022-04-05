@@ -15,10 +15,12 @@ ROS node receives data and publishes on tf. tf skeleton is transformed by
 inverse kinematics into UR10 joint states. Joints are checked on safety 
 regulations and published to UR10.
 
-For explanation, setup instruction and detailed exeuction instructions 
-read thesis: perc_neuron_lutjens_ics_thesis.pdf
+For explanation, setup instruction and detailed execution instructions 
+email me [lutjens [at] mit [dot] edu] for the thesis: perc_neuron_lutjens_ics_thesis.pdf
 
 View follow_hand_demo_290716.ogv for a demonstration of the starting process.
+
+Edit: The code currently depends on a proprietary library by TUM called TMath::Mathtools.h. In order to run the code you will need to replace the library. I think it's only used for calculating an interpolating trajectory between two points.  
 
 -------
 # On ROS Machine
